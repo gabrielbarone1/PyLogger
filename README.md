@@ -1,2 +1,2 @@
 # PyLogger
-Keylogger writtin in python
+Keylogger written in python
