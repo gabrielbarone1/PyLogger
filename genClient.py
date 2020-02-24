@@ -16,7 +16,7 @@ def writeFile(filename, host, port):
     outFile.close()
     size = path.getsize(filename)
     print('Payload written to: %s'%filename)
-    print('Size: %iB'%(size))
+    print('Size: %ikb'%(size))
 
 
 def main():
